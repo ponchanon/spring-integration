@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ShippingApplication",
+            "request": "launch",
+            "mainClass": "esb.ShippingApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WarehouseApplication<shop-WebShop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "esb.WarehouseApplication",
+            "projectName": "shop-WebShop",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
